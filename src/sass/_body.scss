@@ -1,6 +1,7 @@
 .budy{
     display: grid;
     box-sizing: border-box;
+    overflow-x: hidden;
     background-color: $colorPrincipal;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 150px auto auto auto;
