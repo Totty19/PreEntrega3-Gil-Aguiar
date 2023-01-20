@@ -1,0 +1,12 @@
+.budy{
+    display: grid;
+    box-sizing: border-box;
+    background-color: $colorPrincipal;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 150px auto auto auto;
+    grid-template-areas: 
+    "nav    nav    nav    nav  "
+    "header header header header"
+    "main   main   main   main"
+    "footer footer footer footer";
+}
